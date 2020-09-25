@@ -6,7 +6,7 @@
 void main(void){
   int pid;
   int x;
-  srand(time());
+  srand(time(NULL));
   
   
   // first child loop
